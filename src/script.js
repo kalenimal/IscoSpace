@@ -1,4 +1,4 @@
-import * as Three from "three"
+import * as Three from "../node_modules/three/build/three.module.js"
 import { FontLoader, OrbitControls, RGBELoader, TextGeometry } from "three/examples/jsm/Addons.js"
 import color from "../static/textures/door/color.jpg"
 import metal from "../static/textures/matcaps/3.png"
