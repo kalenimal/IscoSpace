@@ -1,3 +1,4 @@
+import { useCallback } from "react"
 import * as Three from "three"
 import { FontLoader, OrbitControls, RGBELoader, TextGeometry } from "three/examples/jsm/Addons.js"
 import color from "../static/textures/door/color.jpg"
@@ -5,6 +6,7 @@ import metal from "../static/textures/matcaps/3.png"
 import GUI from "lil-gui"
 import envirMap from "../static/envMaps/2k.hdr"
 import gsap from "gsap"
+
 
 
 
