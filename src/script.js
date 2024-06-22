@@ -97,9 +97,9 @@ const cube = new Three.Mesh(new Three.BoxGeometry(1,1,1), new Three.MeshMatcapMa
 
 const camera = new Three.PerspectiveCamera(75, sizes.width / sizes.height)
 scene.add(camera)
-camera.position.z = 3;
-camera.position.x = -2;
-camera.position.y = 1;
+camera.position.z = 8;
+camera.position.x = 3;
+camera.position.y = -3;
 const controls = new OrbitControls(camera, canvas)
 controls.enableDamping = true;
 
@@ -113,7 +113,7 @@ renderer.setSize(sizes.width, sizes.height)
 
 renderer.render(scene, camera)
 
-gsap.to(camera.position, { duration: 1, delay: 1, x: 2, y: -1})
+gsap.to(camera.position, { duration: 3, delay: 1, x: -1.5, y: 0.5, z: 3})
 
 const clock = new Three.Clock()
 const tick = () => {
