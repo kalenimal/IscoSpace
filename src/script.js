@@ -2,6 +2,7 @@ import * as Three from "three"
 import { FontLoader, OrbitControls, RGBELoader, TextGeometry } from "three/examples/jsm/Addons.js"
 import GUI from "lil-gui"
 import gsap from "gsap"
+import './style.css'
 
 
 
